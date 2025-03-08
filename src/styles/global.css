@@ -1,0 +1,17 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #205781;
+    color: #000;
+  }
+  
+
+
+  
+  

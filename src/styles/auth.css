@@ -1,0 +1,51 @@
+.auth input{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px 10px;
+    padding: 10px;
+    height: 30px;
+    width: 25%;
+}
+
+
+.auth{
+    border: 2px solid black;
+    margin: 30px ;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #98D2C0;
+    /* background-color: #4F959D; */
+}
+
+.auth h2{
+    text-decoration: underline;
+}
+.auth .button {
+    background-color: #4F959D;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+.auth .button:hover {
+  background-color: #72a092;
+    
+  }
+
+.auth  .google {
+    background-color: #4F959D;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+.auth  .google:hover {
+    background-color: #72a092;
+  }
+  
