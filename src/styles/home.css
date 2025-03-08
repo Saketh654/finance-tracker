@@ -1,0 +1,52 @@
+.hero {
+    text-align: center;
+    padding: 60px;
+    background-color: #f8f9fa;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .cta-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .features, .how-it-works, .testimonials, .cta {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .features ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
