@@ -29,7 +29,7 @@ function Dashboard() {
   }, [navigate]);
 
   return (
-    <div style={{ textAlign: "center", padding: "20px" }}>
+    <div style={{ textAlign: "center" }}>
       <Navbar/>
       <h2>Welcome, {username}!</h2>
       <button onClick={() => auth.signOut() && navigate("/")}>Logout</button>

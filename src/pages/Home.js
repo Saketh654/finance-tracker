@@ -6,7 +6,7 @@ import "../styles/home.css";
 
 function Home() {
   return (
-    <div>
+    <div >
       <Navbar />
       
       {/* Hero Section */}

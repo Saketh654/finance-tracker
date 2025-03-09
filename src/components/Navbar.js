@@ -22,14 +22,14 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" style={{ textAlign: "center", padding: "20px" , margin: "20px"}}>
       <h2 className="logo">Finance Tracker</h2>
       <ul className="nav-links">
         <li><Link to="/">Home</Link></li>
         {user ? ( // If user is logged in, show these links
           <>
             <li><Link to="/dashboard">Dashboard</Link></li>
-            <li><Link to="/transactions">Transactions</Link></li>
+            <li><Link to="/transaction">Transactions</Link></li>
             <li><Link to="/reports">Reports</Link></li>
             <button className="logout-btn" onClick={handleLogout}>Logout</button>
           </>
