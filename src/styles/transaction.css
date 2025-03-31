@@ -12,7 +12,7 @@
   height: 350px;
   padding: 20px;
   background: #f8f9fa;
-  border-radius: 8px;
+  border-radius: 4px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -33,7 +33,7 @@
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 6px;
+  border-radius: 4px;
   font-size: 16px;
 }
 
@@ -50,7 +50,7 @@
   font-size: 16px;
   padding: 10px;
   border: none;
-  border-radius: 6px;
+  border-radius: 4px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
@@ -91,6 +91,14 @@
   border-bottom: none;
 }
 
+.transaction-history button{
+  background-color: #205781;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 6px;
+}
+
 /* Scrollbar styling */
 .transaction-history::-webkit-scrollbar {
   width: 8px;
@@ -104,3 +112,31 @@
 .transaction-history::-webkit-scrollbar-track {
   background: #e0e0e0;
 }
+
+
+
+
+/* Filter and Sort */
+.filter-sort{
+  text-align: end;
+  margin-right: 100px;
+  padding: 5px;
+}
+
+.filter-sort label{
+  margin: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.filter-sort select{
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.trx_main{
+  margin-top: 100px;
+}
+
