@@ -30,7 +30,7 @@ function Navbar() {
             <li><Link to="/dashboard">Dashboard</Link></li>
             <li><Link to="/transaction">Transactions</Link></li>
             <li><Link to="/budget">Budget</Link></li>
-            <li><Link to="/reports">Reports</Link></li>
+            <li><Link to="/report">Reports</Link></li>
             <button className="logout-btn" onClick={handleLogout}>Logout</button>
           </>
         ) : ( // If user is NOT logged in, show Login & Signup
